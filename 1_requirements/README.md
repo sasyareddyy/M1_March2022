@@ -1,44 +1,40 @@
-Requirements
-Introduction
---- Bank Management system : With this project, user can perform banking activities like in real bank. This perticular file contains all the details of requirement collection from user end.
+60 lines (37 sloc)  2.57 KB
+   
+Calculator
+Introduction:-
+Simple calculator is a project to allow users to calculate basic four operations in mathematics ,they are addition, subtraction, multiplication, division but in this Project which I'm Implementing ,also included three additional operations such as Factorial, Power ,modulas .However, the input has to be in the form "number1 operator1 number2 "(i.e 2+4).
 
-SWOT ANALYSIS
-Strength -- User can have all the banking Activities.
+The input includes the command such as we can give numbers based on the operation for example for addition we give 1 as a command and that particular operation works.Moreover, this calculator is smart enough to operate multiplication/division before addition/subtraction/factorial/power/modulas, in another word it is implemented with the order of precedence logic.
 
-Depositing Amount
-Withdrawing Amount
-Viewing Details
-Foreign Exchange
-Weakness -- If the password is wrong No activities can be done.
+Research:-
+https://www.programiz.com/c-programming/examples/calculator-switch-case
 
-Opportunity -- user can Deposit, withdraw amount and can view details.
+https://www.knowprogram.com/c-programming/simple-calculator-program-c
 
-Threats -- If the password is wrong No activities can be done.
+The switch-case statement is used to write a simple calculator program in C language. The remainder operator % is normally used with data values. To print the remainder operator %% is used in the first printf() function. The variable ch store the operator, similarly the variables num1, and num2 stores the two numbers. The switch has condition “ch” so the entered operator is matched with which case label those case label statements are executed, and display result to the screen. If the entered operator is not matched with the case labels then the default statement will be executed and it will display the message “Error! Invalid Operator.” to the screen.
 
-4W's and 1'H
-Who:
-Everyone can use the bank management system who want to have benifit of banking.
+Swot Analysis
+STRENGTHS
 
-What:
-Bank management sysem is mainly concerned to Cover the major Banking activities in sigle application.
+The ultimate strength Calculators is its innovative,user-friendly and long lasting etc..
 
-When:
-TBD
+WEAKNESSES
 
-Where:
-User can can access this application using any C compiler.
+do not inlude all the operations rather have onlty addition,subtraction multiplication, division ,modulas ,power and factorial.
 
-How:
-Implementation is done using C language. And also used multifile concept.
+OPPORTUNITIES
 
-Detail requirements
-High Level Requirements:
--- ID	Description	Status (Implemented/Future)
-HLR1	System Shall be able to open new Account	Implemented
-HLR2	User shall Deposit Money	Implemented
-HLR3	User shall Withdraw Money	Implemented
-HLR4	User shall View Details	Implemented
-Low level Requirements:
--- ID	Description	Status (Implemented/Future)
-LLR1	User can have transaction only if user has Account	Implemented
-LLR2	System Shall be able to open new Account	Implemented
+The tech-based market has a huge opportunities in capturing the youth market. And this calculator comparatively already one step ahead than other
+
+THREATS
+
+The slower growth in technological innovation will also bring a significant threat in the upcoming dynamic world.
+
+HIGH LEVEL REQUIREMENTS:-
+ID	Description	Category
+HLR01	User should able to viewe operation list	technical
+HLR02	User should able to select the operation	technical
+HLR03	The system sould able perform the given operation	technical
+HLR04	The system should provide correct result	technical
+LOW LEVEL REQUIREMENTS:-
+ID	Description	Category
