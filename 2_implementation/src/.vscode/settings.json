@@ -1,6 +1,5 @@
 5 lines (5 sloc)  61 Bytes
-   
-{
+   {
     "files.associations": {
         "stdlib.h": "c"
     }
